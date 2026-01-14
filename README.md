@@ -1,60 +1,27 @@
-# CodeIgniter 4 Framework
+# CodeIgniter 4 Document Tracking System (DICT Timed Challenge)
 
-## What is CodeIgniter?
+This is a full-featured Document Tracking System built from scratch in **under 12 hours** as the final requirement for a DICT (Department of Information and Communications Technology) CodeIgniter 4 certification course.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+🏆 **Awarded "Best Design"** among all participants for its clean UI and close adherence to the project requirements.
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## The Challenge
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+The task was to develop a complete CRUD (Create, Read, Update, Delete) application with role-based user authorization. This project served as a practical exam to demonstrate a rapid grasp of MVC principles in a newly introduced framework.
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## ✨ Key Features
+- **Role-Based Access Control:** Three distinct user roles (Admin, Staff, Encoder) with unique permissions, enforced via session-based authorization.
+- **Full CRUD Operations:** Manage Users, Offices, and Documents.
+- **Secure Authentication:** Passwords are securely stored using PHP's `password_hash()` and `password_verify()`.
+- **Modern Frontend:** Built with Bootstrap 5 for a clean and responsive user interface.
 
-## Important Change with index.php
+## 🛠️ Tech Stack
+- **Framework:** CodeIgniter 4
+- **Language:** PHP 8
+- **Frontend:** Bootstrap 5
+- **Database:** MySQL
+- **Tools:** VS Code, XAMPP
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+## 🧠 Learning & Outcome
+This high-pressure project was my first deep dive into CodeIgniter 4. A key part of my success in the 12-hour timeframe was leveraging **AI-assisted development tools (like GitHub Copilot/ChatGPT)** for boilerplate code generation and rapid debugging. This allowed me to focus on the core MVC logic and application structure.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+Despite the tight deadline, I implemented all requirements, demonstrating an ability to quickly adapt to new technologies and use modern tools efficiently. The "Best Design" award validates my commitment to not just functional code, but also to a quality user experience.
