@@ -1,8 +1,13 @@
 # Environment variables
 .env
 
-# Vendor folder (for Composer packages)
+# Vendor folder
 /vendor/
+
+# CodeIgniter cache and log files
+/writable/debugbar/
+/writable/logs/
+/writable/session/
 
 # IDE and OS files
 .idea/
