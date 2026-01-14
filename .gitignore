@@ -1,0 +1,10 @@
+# Environment variables
+.env
+
+# Vendor folder (for Composer packages)
+/vendor/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.DS_Store
